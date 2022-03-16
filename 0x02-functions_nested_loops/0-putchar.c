@@ -4,8 +4,8 @@
 /**
  * main - Entry point
  *
- * Return
- */[A[C[C[C[C[C[C: nothing, return void[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D
+ * Return: nothing, return void
+ */
 
 int main(void)
 {
