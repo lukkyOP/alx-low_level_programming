@@ -8,16 +8,8 @@
 
 int mul(int a, int b)
 {
-int a = i
-int b = [A'i'[B[D[D[D'j'
-{
-printf( 'i' * 'j' )
-}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C;
 
-
-retu[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[ "%d" 'i' * 'j' );
-
-
-[C[C[C[Crn (0);
+printf("%d\n", mul(int a, int b));
+return (0);
 
 }
