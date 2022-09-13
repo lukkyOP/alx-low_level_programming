@@ -45,7 +45,7 @@ _putchar((op % 10) + 48);
 }
 
 }
-putchar('\n');
+_putchar('\n');
 }
 
 }
