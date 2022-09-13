@@ -24,4 +24,5 @@ printf("%lu, ", z);
 }
 
 printf("%lu\n", z + x);
-return (void);
+return (0);
+print first 50 fibonacci numbers
