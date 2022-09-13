@@ -16,9 +16,10 @@ if (n >= 0 && n <= 15)
 for (a = 0; a <= n; a++)
 {
 _putchar(48);
-for (b = 1; b <= n; b++)
+for (b = 0; b <= n; b++)
 {
 op = a * b;
+if (b != 0)
 _putchar(44);
 _putchar(32);
 if (op <= 9)
@@ -46,6 +47,4 @@ _putchar('\n');
 }
 
 }
-}
-
 }
