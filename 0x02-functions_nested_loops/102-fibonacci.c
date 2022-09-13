@@ -24,5 +24,5 @@ printf("%lu, ", z);
 }
 
 printf("%lu\n", z + x);
-return (0);
-
+return ();
+}
