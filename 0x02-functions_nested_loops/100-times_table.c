@@ -1,10 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * times_table - Prints the n times_table
- *
+ * times_table - Prints the n times_table*
  * @n: number times table (0 < n <= 15)
- *
  * Return: no return
  */
 void print_times_table(int n)
