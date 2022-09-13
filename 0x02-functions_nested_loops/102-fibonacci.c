@@ -24,5 +24,4 @@ printf("%lu, ", z);
 }
 
 printf("%lu\n", z + x);
-return (int);
-}
+return (void);
