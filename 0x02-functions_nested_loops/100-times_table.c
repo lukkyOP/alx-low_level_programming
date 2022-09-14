@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include "main.h"
 /**
  * print_times_table - Prints the n times_table*
  * @n: number times table (0 < n <= 15)
@@ -28,7 +28,7 @@ void print_times_table(int n)
 				_putchar(c / 10 + '0');
 				_putchar(c % 10 + '0');
 			}
-			else if (y != 0)
+			else if (b != 0)
 			{
 				_putchar(' ');
 				_putchar(' ');
