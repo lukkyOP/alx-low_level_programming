@@ -1,4 +1,4 @@
-#include "main.h"
+#include<stdio.h>
 
 /**
  * print_times_table - Prints the n times_table*
@@ -37,7 +37,7 @@ void print_times_table(int n)
 			else
 				_putchar(c + '0');
 			
-			if (y != n)
+			if (b != n)
 			{
 				_putchar(',');
 				_putchar(' ');
