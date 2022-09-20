@@ -4,7 +4,7 @@
  * _puts - prints a string
  * @str: A pointer to an int that will be changed
  *
- * Return: void 
+ * Return: void
  */
 
 void _puts(char *str)
