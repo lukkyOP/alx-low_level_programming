@@ -1,12 +1,12 @@
 #include <unistd.h>
 
 /**
- * _isdigit - writes the character
+ * _atoi - writes
  * @c: the character
  *
  * Return: 0
  */
-int _isdigit(int c)
+int _atoi(char *s)
 {
 	return(0);
 }

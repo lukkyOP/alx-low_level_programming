@@ -1,12 +1,12 @@
 #include <unistd.h>
 
 /**
- * _isdigit - writes the character
+ * _strchr - writes
  * @c: the character
  *
  * Return: 0
  */
-int _isdigit(int c)
+char *_strchr(char *s, char c)
 {
 	return(0);
 }

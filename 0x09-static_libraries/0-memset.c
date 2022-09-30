@@ -1,12 +1,13 @@
 #include <unistd.h>
 
 /**
- * _isdigit - writes the character
+ * _memset - writes the character
  * @c: the character
  *
  * Return: 0
  */
-int _isdigit(int c)
+char *_memset(char *s, char b, unsigned int n)
 {
 	return(0);
 }
+
