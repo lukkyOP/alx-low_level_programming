@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <ctype.h>
 #include "main.h"
 #include <string.h>
@@ -35,10 +34,10 @@ int check_num(char *str)
  * Return: 0
  */
 
-int main(int argc, char **argv[])
+int main(int argc, char *argv[])
 
 {
-	int count, sum;
+	int count, sum, k;
 	
 	sum = 0;
 
@@ -51,7 +50,8 @@ int main(int argc, char **argv[])
 			printf("Error\n");
 			return (1);
 		}
-		if (atoi(argv[count]) <= 0)
+		k = atoi(argv[count]);
+		if (k <= 0)
 		{
 			printf("Error\n");
 			return (1);
