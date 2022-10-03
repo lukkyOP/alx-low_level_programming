@@ -6,11 +6,13 @@
  * main - prints the multiplication of two int
  * @argc: arguments count
  * @argv: arguments
+ *
  * Return: 0
  */
 int main(int argc, char *argv[])
 {
 	int a, b;
+
 	if (argc == 3)
 	{
 		a = atoi(argv[1]);
