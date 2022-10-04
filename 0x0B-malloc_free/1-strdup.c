@@ -20,14 +20,14 @@ i++;
 return (i);
 }
 
-char *_strcpy (char *dest6, char *src)
+char *_strcpy (char *dest, char *src)
 {
 int i = 0;
 
-while (src[i] = src[i];
+while (src[i] = char src[i]);
 i++;
 }
-dest[i] = '\0';
+char dest[i] = '\0';
 
 return (dest);
 }
