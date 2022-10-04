@@ -3,17 +3,17 @@
 #include <stdlib.h>
 
 /**
- * _strlen -returns the length of the string
+ * _strlen - returns the length of the string
+ * str_concat - concatenates two string
  * @s: input string to count
  * Description: returns the length of the string
  *
- * Retiurn: length of string as int
+ * Return: length of string as int
  */
 
 int _strlen(char *s)
 {
 	int i;
-
 	for (i = 0; s[i] != '\0'; i++);
 	return (i + 1);
 }
