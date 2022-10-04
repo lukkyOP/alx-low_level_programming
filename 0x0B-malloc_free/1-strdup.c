@@ -24,7 +24,7 @@ char *_strcpy (char *dest, char *src)
 {
 int i = 0;
 
-while (src[i] = char src[i]);
+while (src[i] = src[i]);
 i++;
 }
 char dest[i] = '\0';
