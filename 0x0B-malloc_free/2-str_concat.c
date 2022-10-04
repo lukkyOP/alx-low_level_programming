@@ -5,6 +5,7 @@
 /**
  * _strlen - returns the length of the string
  * @s: input string to count
+ *
  * Description: returns the length of the string
  *
  * Return: length of string as int
@@ -13,8 +14,9 @@
 int _strlen(char *s)
 {
 	int i;
-	for (i = 0; s[i] != '\0'; i++);
 
+	for (i = 0; s[i] != '\0'; i++)
+		;
 	return (i + 1);
 }
 /**
@@ -23,9 +25,10 @@ int _strlen(char *s)
  * @s2: second string
  *
  * Description: concatenate two strings, return NULL
- * Return: pointer to string, Null if fails
+ * Return: pointer to string,
+ * Null if fails
  *
- */
+ **/
 
 char *str_concat(char *s1, char *s2)
 {
