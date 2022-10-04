@@ -14,6 +14,7 @@ int _strlen(char *s)
 {
 	int i;
 	for (i = 0; s[i] != '\0'; i++);
+
 	return (i + 1);
 }
 /**
@@ -21,6 +22,7 @@ int _strlen(char *s)
  * @s1: first string
  * @s2: second string
  * Description: concatenate two strings, return NULL
+ *
  * Return: pointer to string, Null if fails
  *
  */
