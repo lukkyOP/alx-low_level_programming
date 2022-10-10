@@ -9,7 +9,8 @@
  * Description: This struct is for dog
  */
 
-struct dog {
+struct dog 
+{
 	char *name;
 	float age;
 	char *owner;
