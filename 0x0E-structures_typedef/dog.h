@@ -1,10 +1,13 @@
-#include <stdio.h>
-#include "dog.h"
+#ifndef DOG_H
+#define DOH_H
 
 /**
- * main - Entry point
+ * struct dog - struct dog
+ * @name: name
+ * @age: age
+ * @owner: owner
  *
- * Return: Always 0
+ * Description: This struct is for dog
  */
 
 struct dog {
@@ -22,3 +25,4 @@ int main(void)
 
 	return (0);
 }
+#endif
