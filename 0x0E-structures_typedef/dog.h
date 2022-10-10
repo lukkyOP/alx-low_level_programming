@@ -17,12 +17,19 @@ struct dog {
 }
 {
 int main(void)
-	struct dog my_dog;
+	struct dog dog_t;
 
 	my_dog.name = "lucky";
 	my_dog.age = 3;
 	my_dog.owner = "Tom";
 
 	return (0);
-}
+};
+typedef struct dog dog_t;
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
+
+
 #endif
